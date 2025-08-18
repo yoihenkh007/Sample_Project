@@ -1,11 +1,20 @@
- 
-numpy
-pandas
-scikit-image
-opencv-python
-scikit-learn
-xgboost
-matplotlib
-Pillow
-streamlit
-joblib
+# Core
+numpy==1.24.4
+pandas==2.0.3
+scikit-learn==1.3.2
+xgboost==1.7.6
+joblib==1.3.2
+
+# Image processing
+opencv-python==4.9.0.80
+scikit-image==0.21.0
+Pillow==10.0.1
+
+# Visualization
+matplotlib==3.7.2
+
+# Deployment
+streamlit==1.29.0
+
+# Utils
+tqdm==4.66.1
